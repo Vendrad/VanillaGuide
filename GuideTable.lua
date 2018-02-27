@@ -110,6 +110,7 @@ function objGuideTable:new(oSettings)
 				{ "s", "30-40" },
 				{ "s", "40-50" },
 				{ "s", "50-60" },
+				{ "s", "57-60" }
 			},
 			["Profession Guides"] = {
 				{ "v", "Alchemy", id = nil },
@@ -289,6 +290,17 @@ function objGuideTable:new(oSettings)
 				{ "v", "58-59 Western Plaguelands", id = nil },
 				{ "v", "59-60 Winterspring", id = nil },
 			},
+			["[A] 57-60"] = {
+				{ "v", "Removable Quests", id = nil },
+				{ "v", "Pre-Requisites", id = nil },
+				{ "v", "Burning Steppes", id = nil },
+				{ "v", "Western Plaguelands", id = nil },
+				{ "v", "Eastern Plaguelands", id = nil },
+				{ "v", "Western Plaguelands", id = nil },
+				{ "v", "Eastern Plaguelands", id = nil },
+				{ "v", "Western Plaguelands", id = nil },
+				{ "v", "Winterspring", id = nil },
+			},
 		},
 	}
 
@@ -352,6 +364,7 @@ function objGuideTable:new(oSettings)
 		obj.Guide = TablesMerge(obj.Guide, ColorizeTable(Table_003_Alliance_30to40))
 		obj.Guide = TablesMerge(obj.Guide, ColorizeTable(Table_003_Alliance_40to50))
 		obj.Guide = TablesMerge(obj.Guide, ColorizeTable(Table_003_Alliance_50to60))
+		obj.Guide = TablesMerge(obj.Guide, ColorizeTable(Table_003_Alliance_57to60))
 		obj.Guide = TablesMerge(obj.Guide, ColorizeTable(Table_004_Professions))
 	end
 
@@ -440,6 +453,7 @@ function objGuideTable:new(oSettings)
 			xSearchID(obj.TableDDM.lvl3["[A] 30-40"])
 			xSearchID(obj.TableDDM.lvl3["[A] 40-50"])
 			xSearchID(obj.TableDDM.lvl3["[A] 50-60"])
+			xSearchID(obj.TableDDM.lvl3["[A] 57-60"])
 		end
 	end
 
@@ -462,6 +476,7 @@ function objGuideTable:new(oSettings)
 		Table_003_Alliance_30to40 = nil
 		Table_003_Alliance_40to50 = nil
 		Table_003_Alliance_50to60 = nil
+		Table_003_Alliance_57to60 = nil
 		Table_004_Professions = nil
 	end
 
@@ -671,6 +686,17 @@ do
 		[5858] = {	title = "58-58 Eastern Plaguelands" },
 		[5859] = {	title = "58-59 Western Plaguelands" },
 		[5960] = {	title = "59-60 Winterspring" },
+	}
+	Table_003_Alliance_57to60 = {
+		[1000] = {	title = "Removable Quests" },
+		[1001] = {	title = "Pre-Requisites" },
+		[1002] = {	title = "Burning Steppes" },
+		[1003] = {	title = "Western Plaguelands" },
+		[1004] = {	title = "Eastern Plaguelands" },
+		[1005] = {	title = "Western Plaguelands" },
+		[1006] = {	title = "Eastern Plaguelands" },
+		[1007] = {	title = "Western Plaguelands" },
+		[1008] = {	title = "Winterspring" },
 	}
 -----------------------------------------------------------------
 	Table_004_Professions = {
