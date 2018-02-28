@@ -45,6 +45,7 @@ GuideTables\Alliance\003_Alliance_20to30.lua
 GuideTables\Alliance\003_Alliance_30to40.lua
 GuideTables\Alliance\003_Alliance_40to50.lua
 GuideTables\Alliance\003_Alliance_50to60.lua
+GuideTables\Alliance\003_Alliance_57to60.lua
 GuideTables\004_Professions.lua
 GuideTable.lua
 Display.lua
