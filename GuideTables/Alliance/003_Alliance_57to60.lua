@@ -170,7 +170,7 @@ Table_003_Alliance_57to60 = {
 		--pID = 512, nID = 514,
 		--itemCount = 9,
 		items = {
-			[1] = { str = "Go NE to the house at 49,78 and go upstairs. Turn in 'Pamela's Doll' accept 'A Strange Historian'", x = 49, y = 78, zone = "Western Plaguelands" },
+			[1] = { str = "Go NE to the house at 49,78 and go upstairs. Turn in 'Auntie Marlene' accept 'A Strange Historian'", x = 49, y = 78, zone = "Western Plaguelands" },
 			[2] = { str = "Just north of the house at 49,76 you’ll see an off color gravestone. Loot it and get the wedding ring for 'A Strange Historian'", x = 49, y = 76, zone = "Western Plaguelands" },
 			[3] = { str = "Go in the west entrance to Andorhal at 39,71 and you should see the only full building, looks like an inn at 39,68. Go upstairs and turn in 'A Strange Historian'. Accept 'The Annals of Darrowshire' also accept 'A Matter of Time'", x = 39, y = 68, zone = "Western Plaguelands" },
 			[4] = { str = "Now look all around the city here for busted up silo’s with a blue light coming out of them. Use the silo horn to summon the worms, it spawns 1-3 mobs for 'A Matter of Time'. Once you kill the last one they have a tendency to spawn another. They’re more on the East side of town" },
