@@ -190,7 +190,7 @@ Table_003_Alliance_57to60 = {
 		--pID = 513, nID = 515,
 		--itemCount = 18,
 		items = {
-			[1] = { str = "Go up to the NW at 7,43 and turn in the 3 quests 'Demon Dogs', 'Blood Tinged Skies' and 'Carrion Grubbage'. Accept 'Redemption' then listen to him and turn it back in. Then accept 'Of Forgotten Memories'", x = 7, y = 43, zone = "Eastern Plaguelands" },
+			[1] = { str = "Go up to the NW at 7,43 and turn in the 3 quests 'Demon Dogs', 'Blood Tinged Skies' and 'Carrion Grubbage'. Accept 'Redemption', then sit (/sit) and talk to him again to hear his story so you can turn the quest back in. Accept 'Of Forgotten Memories'", x = 7, y = 43, zone = "Eastern Plaguelands" },
 			[2] = { str = "Go to the Undercroft at 28,86 and run behind it. Touch the dirt pile to summon Mercutio and 3 guards. Easiest way to do this is to kite him away from his buddies or get a group. Loot his body for the hammer for 'Of Forgotten Memories'", x = 28, y = 86, zone = "Eastern Plaguelands" },
 			[3] = { str = "Now go to the bottom of the crypt and kill the very big troll for 'Zaeldarr the Outcast'. Click the scroll to start 'Hameya's Plea'" },
 			[4] = { str = "Go back to 7,43 and turn in 'Of Forgotten Memories'. Accept 'Of Lost Honor'", x = 7, y = 43, zone = "Eastern Plaguelands" },
